@@ -4,6 +4,7 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+target/
 
 # --- 压缩与日志 ---
 *.log
