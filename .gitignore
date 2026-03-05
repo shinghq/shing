@@ -20,3 +20,33 @@ obj/
 # --- 脚本处理 ---
 # 忽略所有 .sh 脚本 (去掉了错误的反斜杠)
 *.sh
+
+# 编译输出
+/target/
+
+# Cargo.lock（库项目不需要上传）
+Cargo.lock
+
+# Rust 备份文件
+**/*.rs.bk
+*.pdb
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 其他
+*.log
+.env
+.env.*
